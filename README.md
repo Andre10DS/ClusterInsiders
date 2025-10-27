@@ -202,7 +202,7 @@ H3: Os clientes do cluster insiders tem um número de devolução médio abaixo 
 Falso: O cluser insiders tem a média de devoluções acima da média geral
 
 
-**Step 09. Questões de negócio :**
+**Step 10. Questões de negócio :**
 
 1. Quem são as pessoas elegíveis para participar do programa de Insiders ?
 
@@ -235,7 +235,7 @@ Respostas: Os critérios básicos para um cliente ser considerado Insider é pos
 Respostas: O cliente será retirado do grupo insiders caso não atenda a dois ou mais requisitos exigidos para ser do grupo insiders por mais de 60 dias consecutivos ou reduza o valor médio de gastos para patamares inferiores a $8.835 por 3 meses consecutivos.
 
 
-8. Quais ações o time de marketing pode realizar para aumentar o faturamento?
+7. Quais ações o time de marketing pode realizar para aumentar o faturamento?
 
 Respostas:
 
@@ -274,14 +274,21 @@ Respostas:
      - Fluxo automatizado de remarketing pós-compra: enviar lembrete de produtos complementares após um período determinado.
 
 
-**Step 10. Deploy Modelo to Production:**
+**Step 11. Entrega do dashboard no Looker:**
 
-# 8. Conclusions
+Segue o dashboard com os dados dos clusters:
+
+
+<iframe width="600" height="443" src="https://lookerstudio.google.com/embed/reporting/361ac0b1-f8fb-4743-b4ad-abea890fb07a/page/k9PcF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+
+
+
+# 4. Conclusions
 
   Os algoritmos de clusterização são ferramentas extremamente úteis para entender o comportamento do cliente e na resolução de problemas de negócio que necessitem de agrupamentos se rotulos pré-definidos. Neste projeto a utilização dos algoritmos ajudaram a definir um grupo de clientes para criação do programa de fidelização e, além disso, contribuição para a criação de um grupo de referência para nortear as ações de marketing visando aumentar o desempenho da empresa transformando os demais grupos em insiders.
 
 
-# 9. Next Steps to Improve
+# 5. Next Steps to Improve
 
   - Realizar o estudo da cesta de compras do grupo insiders para subsidear as ações de marketing para outros grupos com o objetivo de aproxima-los do padrão mais elevado.
   - Efetuar a projeção de faturamento do grupo insiders para avaliar a viabilidade das ações de marketing.
