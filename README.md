@@ -1,5 +1,5 @@
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Marca-Photoroom.png?raw=true" alt="Marca" title="Logo da marca All In One" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Marca-Photoroom.png" alt="Marca" title="Logo da marca All In One" align="center" height="500" class="center"/>
 
 # Insiders Clustering
 
@@ -73,15 +73,15 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
 
     1. No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
     
-<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/PCA_D.png?raw=true?raw=true" alt="PCA" title="PCA" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/PCA_D.png" alt="PCA" title="PCA" align="center" height="500" class="center"/>
 
     2. No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/UMAP.png?raw=true?raw=true" alt="UMAP" title="UMAP" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/UMAP.png" alt="UMAP" title="UMAP" align="center" height="500" class="center"/>
 
     3. No espaço gerado pelo TSNE a distrbuição teve uma maior separabilidade se comparado ao PCA, porém ainda apresenta baixa separabilidade dos dados.
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/TSNE.png?raw=true?raw=true" alt="TSNE" title="TSNE" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/TSNE.png" alt="TSNE" title="TSNE" align="center" height="500" class="center"/>
 
     4. O espaço gerado Random Forest (Embedding) apresentou a melhor distribuição dos dados com a formação de clusters mais evidentes.
 
@@ -93,7 +93,7 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
    - Nesta etapa foi realizar o teste com os modelos e ajuste dos parametros com os modelos K-Means, GMM, Hierarchical Clustering e DBSCAN. Os resultados obtidos foram:
 
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Modelos.png?raw=true?raw=true" alt="Reultado dos modelos" title="Resultado dos modelos" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Modelos.png" alt="Reultado dos modelos" title="Resultado dos modelos" align="center" height="500" class="center"/>
 
    Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direcionamento das ações de marketing. Além disso, o modelo selecionado foi o Hierarchical Clustering por apresentar a melhor perfomance para o número de clusters escolhido.
 
@@ -102,7 +102,7 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
 
    - Ao definir os clusters obtivemos as seguintes descrições:
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Formação dos Cluster.png.png?raw=true?raw=true" alt="Clusters" title="Clusters" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Forma%C3%A7%C3%A3o%20dos%20Cluster.png" alt="Clusters" title="Clusters" align="center" height="500" class="center"/>
 
     ### Cluster 01:  ( Candidato à Insider )
     - Número de customers: 468
