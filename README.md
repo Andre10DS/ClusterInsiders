@@ -1,3 +1,6 @@
+
+<img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Marca-Photoroom.png?raw=true" alt="Marca" title="Logo da marca All In One" align="center" height="500" class="center"/>
+
 # Insiders Clustering
 
 ## Este projeto tem como objetivo descobrir pessoas semelhantes para participar de um programa de fidelidade
@@ -69,13 +72,20 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
     - Nessa etapa foi avaliado a distribuição dos dados em menor dimensionaldiade. Para reduzir a dimensionalidade usamos o PCA, UMAP, TSNE e Baseado em Embedding.
 
     1. No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
-     *** Colocar imagem ***
+    
+    <img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/PCA_D.png?raw=true?raw=true" alt="PCA" title="PCA" align="center" height="500" class="center"/>
+
     2. No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
-     *** Colocar imagem ***
+
+     <img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/UMAP.png?raw=true?raw=true" alt="UMAP" title="UMAP" align="center" height="500" class="center"/>
+
     3. No espaço gerado pelo TSNE a distrbuição teve uma maior separabilidade se comparado ao PCA, porém ainda apresenta baixa separabilidade dos dados.
-     *** Colocar imagem ***
+
+    <img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/TSNE.png?raw=true?raw=true" alt="TSNE" title="TSNE" align="center" height="500" class="center"/>
+
     4. O espaço gerado Random Forest (Embedding) apresentou a melhor distribuição dos dados com a formação de clusters mais evidentes.
-    *** Colocar imagem ***
+
+    <img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Embededing.png?raw=true?raw=true" alt="Embedding" title="Embedding" align="center" height="500" class="center"/>
 
 
 **Step 06. Hyperparameter Fine-Tunning e teste dos modelos:**
@@ -83,7 +93,7 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
    - Nesta etapa foi realizar o teste com os modelos e ajuste dos parametros com os modelos K-Means, GMM, Hierarchical Clustering e DBSCAN. Os resultados obtidos foram:
 
 
-      *** foto da perfomance ***
+    <img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Modelos.png?raw=true?raw=true" alt="Reultado dos modelos" title="Resultado dos modelos" align="center" height="500" class="center"/>
 
    Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direcionamento das ações de marketing. Além disso, o modelo selecionado foi o Hierarchical Clustering por apresentar a melhor perfomance para o número de clusters escolhido.
 
@@ -92,17 +102,85 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
 
    - Ao definir os clusters obtivemos as seguintes descrições:
 
+    <img src="https://github.com/Andre10DS/ClusterInsiders/tree/main/imagens/Formação dos Cluster.png.png?raw=true?raw=true" alt="Clusters" title="Clusters" align="center" height="500" class="center"/>
+
+    ### Cluster 01:  ( Candidato à Insider )
+    - Número de customers: 468
+    - Faturamento médio: 8836
+    - Recência média: 21 dias
+    - Média de Produtos comprados: 424 produtos
+    - Frequência de compra: 0.09 quant. de compras/dia
+    - Receita em média: $8836.13,00 dólares
+        
+    ### Cluster 03: 
+    - Número de customers: 502
+    - Faturamento médio: 2620.966992
+    - Recência média: 41 dias
+    - Média de Produtos comprados: 141 produtos
+    - Frequência de compra: 0.04 quant. de compras/dia
+    - Receita em média: $2620.96 dólares
+        
+   ### Cluster 08: 
+    - Número de customers: 308
+    - Faturamento médio: 2467,04
+    - Recência média: 74 dias
+    - Média de Produtos comprados: 59 produtos
+    - Frequência de compra: 0.11 quant. de compras/dia
+    - Receita em média: $2467,04 dólares
+   
+   ### Cluster 02: 
+    - Número de customers: 404
+    - Faturamento médio: 1689.18
+    - Recência média: 54 dias
+    - Média de Produtos comprados: 89 produtos
+    - Frequência de compra: 0.05 quant. de compras/dia
+    - Receita em média: $1689.18,00 dólares
+   
+   ### Cluster 06: 
+    - Número de customers: 372
+    - Faturamento médio: 1237.75
+    - Recência média: 61 dias
+    - Média de Produtos comprados: 54 produtos
+    - Frequência de compra: 0.04 quant. de compras/dia
+    - Receita em média: $1237.75,00 dólares
+   
+   ### Cluster 07: 
+    - Número de customers: 322
+    - Faturamento médio: 971.02
+    - Recência média: 75 dias
+    - Média de Produtos comprados: 37 produtos
+    - Frequência de compra: 0.07 quant. de compras/dia
+    - Receita em média: $971.02,00 dólares    
+  
+   ### Cluster 05: 
+    - Número de customers: 278
+    - Faturamento médio: 583.41
+    - Recência média: 91 dias
+    - Média de Produtos comprados: 11 produtos
+    - Frequência de compra: 0.02 quant. de compras/dia
+    - Receita em média: $583.41,00 dólares    
+
+   ### Cluster 04: 
+    - Número de customers: 314
+    - Faturamento médio: 527.52
+    - Recência média: 136 dias
+    - Média de Produtos comprados: 16 produtos
+    - Frequência de compra: 0.52 quant. de compras/dia
+    - Receita em média: $527.52,00 dólares      
+
+
+
 **Step 09. Top 3 Data Insights:**
 
 H1: Os clientes do cluster insiders possuem um volume (produtos) de compras acima de 10% do total de compras.
 
-Verdade: O cluster insider possuem um volume de compra de produtos de 48.69%
+Verdade: O cluster insider possuem um volume de compra de produtos de 54.48%.
 
 
 
 H2: Os clientes do cluster insiders possuem um volume (faturamento) de compras acima de 10% do total de compras
 
-Verdadeiro: O cluster insider possuem um volume de GMV de 49.01%
+Verdadeiro: O cluster insider possuem um volume de GMV de 51.73%
 
 
 
@@ -115,35 +193,72 @@ Falso: O cluser insiders tem a média de devoluções acima da média geral
 
 1. Quem são as pessoas elegíveis para participar do programa de Insiders ?
 
-Respostas: 
+Respostas: Cerca de 468
 
 2. Quantos clientes farão parte do grupo?
 
-Respostas:
+Respostas: Cerca de 468
 
 3. Quais as principais características desses clientes ?
-Respostas:
+Respostas: As características são:
+
+- Número de customers: 468 (16% do customers )
+- Faturamento médio: 8836
+- Recência média: 21 dias
+- Média de Produtos comprados: 424 produtos
+- Frequência de Produtos comprados: 0.09 produtos/dia
+- Receita em média: $8836.13,00 dólares
 
 4. Qual a porcentagem de contribuição do faturamento, vinda do Insiders ?
 
-Respostas:
+Respostas: O cluster Insiders corresponde a 51,72% do faturmento.
 
 5. Quais as condições para uma pessoa ser elegível ao Insiders ?
 
-Respostas:
+Respostas: Os critérios básicos para um cliente ser considerado Insider é possuir um gasto médio de igual ou superior a $8836, recência não superior a 21 dias e frequencia média de 0.09 de compras por dia.
 
 6. Quais as condições para uma pessoa ser removida do Insiders ?
 
-Respostas:
+Respostas: O cliente será retirado do grupo insiders caso não atenda a dois ou mais requisitos exigidos para ser do grupo insiders por mais de 60 dias consecutivos ou reduza o valor médio de gastos para patamares inferiores a $8.835 por 3 meses consecutivos.
 
-
-7. Qual a garantia que o programa Insiders é melhor que o restante da base ?
-
-Respostas:
 
 8. Quais ações o time de marketing pode realizar para aumentar o faturamento?
 
 Respostas:
+
+ 1. Receita / Ticket Médio (aumentar o valor gasto por compra):
+
+     - Cross-sell e upsell inteligentes: sugerir itens complementares ou de categoria superior no carrinho.
+
+     - Bundles promocionais: descontos em combos de produtos ou kits de marcas parceiras.
+
+     - Frete grátis acima de determinado valor: estimular aumento do carrinho médio.
+
+     - Criação de grupos intermediários ao grupo Insiders: Criar grupos intermediários com ofertas e serviços VIP que aumentam a cada elevação de grupo.
+
+ 2. Frequência (aumentar o número de compras por cliente):
+
+     - Programa de fidelidade com benefícios progressivos: pontos, cashback ou acesso antecipado a promoções.
+
+     - Assinaturas de produtos recorrentes (ex.: básicos de vestuário, perfumes, acessórios).
+
+     - Campanhas de “compre e ganhe”: recompensas por volume ou frequência de compras.
+
+     - Ações de gamificação: desafios mensais (“compre 3 vezes e ganhe um brinde”).
+
+     - Segmentação por comportamento: recomendações automáticas com base em histórico de navegação e categorias preferidas.
+ 
+ 3. Recência (diminuir o tempo entre a última e a próxima compra):
+
+     - Campanhas de reativação segmentadas: e-mails e SMS com ofertas exclusivas para clientes inativos há 30, 60 e 90 dias.
+
+     - Retargeting personalizado: anúncios dinâmicos exibindo produtos visualizados recentemente ou similares.
+
+     - Push notifications de novidades: destacar novas coleções ou lançamentos das marcas favoritas.
+
+     - Cupons de “boas-vindas de volta”: incentivo com prazo curto para recompra.
+
+     - Fluxo automatizado de remarketing pós-compra: enviar lembrete de produtos complementares após um período determinado.
 
 
 **Step 10. Deploy Modelo to Production:**
