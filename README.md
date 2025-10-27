@@ -73,9 +73,10 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
     - Além da univariada, foi realizado a analise bivariada visando encontrar alguma alta correlação que pode reduzir a perfomance do modelo.
 
 **Step 05. Estudo do espaço:**
-    - Nessa etapa foi avaliado a distribuição dos dados em menor dimensionaldiade. Para reduzir a dimensionalidade usamos o PCA, UMAP, TSNE e Baseado em Embedding.
 
-    1. No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
+Nessa etapa foi avaliado a distribuição dos dados em menor dimensionaldiade. Para reduzir a dimensionalidade usamos o PCA, UMAP, TSNE e Baseado em Embedding.
+
+No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
 
     
 <img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/imagens/PCA_D.png"
@@ -86,27 +87,30 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
      class="center" />git
 
 
-    2. No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
+No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
 
 <img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/UMAP.png" alt="UMAP" title="UMAP" align="center" height="500" class="center"/>
 
-    3. No espaço gerado pelo TSNE a distrbuição teve uma maior separabilidade se comparado ao PCA, porém ainda apresenta baixa separabilidade dos dados.
+
+No espaço gerado pelo TSNE a distrbuição teve uma maior separabilidade se comparado ao PCA, porém ainda apresenta baixa separabilidade dos dados.
 
 <img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/TSNE.png" alt="TSNE" title="TSNE" align="center" height="500" class="center"/>
 
-    4. O espaço gerado Random Forest (Embedding) apresentou a melhor distribuição dos dados com a formação de clusters mais evidentes.
+
+O espaço gerado Random Forest (Embedding) apresentou a melhor distribuição dos dados com a formação de clusters mais evidentes.
 
 <img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Embededing.png" alt="Embedding" title="Embedding" align="center" height="500" class="center"/>
 
 
 **Step 06. Hyperparameter Fine-Tunning e teste dos modelos:**
     
-   - Nesta etapa foi realizar o teste com os modelos e ajuste dos parametros com os modelos K-Means, GMM, Hierarchical Clustering e DBSCAN. Os resultados obtidos foram:
+Nesta etapa foi realizar o teste com os modelos e ajuste dos parametros com os modelos K-Means, GMM, Hierarchical Clustering e DBSCAN. Os resultados obtidos foram:
 
 
 <img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Modelos.png" alt="Reultado dos modelos" title="Resultado dos modelos" align="center" height="500" class="center"/>
 
-   Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direcionamento das ações de marketing. Além disso, o modelo selecionado foi o Hierarchical Clustering por apresentar a melhor perfomance para o número de clusters escolhido.
+
+Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direcionamento das ações de marketing. Além disso, o modelo selecionado foi o Hierarchical Clustering por apresentar a melhor perfomance para o número de clusters escolhido.
 
 
 **Step 08. Analise do clusters:**
