@@ -89,7 +89,8 @@ No espaço dos componentes principais gerado pelo PCA a distribuição do dados 
 
 No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
 
-![UMAP](img/UMAP.png)
+
+![UMAP](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/UMAP.png)
 
 
 
