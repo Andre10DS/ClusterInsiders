@@ -1,4 +1,9 @@
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Marca-Photoroom.png" alt="Marca-Photoroom" title="Marca-Photoroom" align="center" height="500" class="center"/>
+<img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/imagens/Marca-Photoroom.png"
+     alt="Marca-Photoroom"
+     title="Marca-Photoroom"
+     align="center"
+     height="500"
+     class="center" />
 
 # Insiders Clustering
 
