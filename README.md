@@ -115,7 +115,7 @@ Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direc
 
    - Ao definir os clusters obtivemos as seguintes descrições:
 
-![clusterv](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/Formação dos Cluster.png)
+![clusterv](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/cluster.png)
 
   ### Cluster 01:  ( Candidato à Insider )
     - Número de customers: 468
