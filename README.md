@@ -3,7 +3,7 @@
      title="Marca-Photoroom"
      align="center"
      height="500"
-     class="center" />
+     class="center" />git
 
 # Insiders Clustering
 
@@ -76,8 +76,15 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
     - Nessa etapa foi avaliado a distribuição dos dados em menor dimensionaldiade. Para reduzir a dimensionalidade usamos o PCA, UMAP, TSNE e Baseado em Embedding.
 
     1. No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
+
     
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/PCA_D.png" alt="PCA_D" title="PCA_D" align="center" height="500" class="center"/>
+<img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/imagens/PCA_D.png"
+     alt="Marca-Photoroom"
+     title="Marca-Photoroom"
+     align="center"
+     height="500"
+     class="center" />git
+
 
     2. No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
 
