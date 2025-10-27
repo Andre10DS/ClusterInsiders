@@ -1,9 +1,14 @@
-<img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/imagens/Marca-Photoroom.png"
-     alt="Marca-Photoroom"
-     title="Marca-Photoroom"
-     align="center"
-     height="500"
-     class="center" />
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/img/UMAP.png" alt="logo" title="logo" align="center" height="500" class="center"/>
+
+
+![logof](img/UMAP.png)
+
+
+![logov](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/UMAP.png)
+
+
+<img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/UMAP.png" alt="logod" title="logod" align="center" height="500" class="center"/>
+
 
 # Insiders Clustering
 
