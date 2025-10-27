@@ -1,5 +1,4 @@
-
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Marca-Photoroom.png" alt="Marca" title="Logo da marca All In One" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Marca-Photoroom.png" alt="Marca-Photoroom" title="Marca-Photoroom" align="center" height="500" class="center"/>
 
 # Insiders Clustering
 
@@ -73,7 +72,7 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
 
     1. No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
     
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/PCA_D.png" alt="PCA" title="PCA" align="center" height="500" class="center"/>
+<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/PCA_D.png" alt="PCA_D" title="PCA_D" align="center" height="500" class="center"/>
 
     2. No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
 
@@ -104,7 +103,7 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
 
 <img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Forma%C3%A7%C3%A3o%20dos%20Cluster.png" alt="Clusters" title="Clusters" align="center" height="500" class="center"/>
 
-    ### Cluster 01:  ( Candidato à Insider )
+  ### Cluster 01:  ( Candidato à Insider )
     - Número de customers: 468
     - Faturamento médio: 8836
     - Recência média: 21 dias
@@ -112,7 +111,7 @@ Por esse motivo, o time de marketing requisitou ao time de dados uma seleção d
     - Frequência de compra: 0.09 quant. de compras/dia
     - Receita em média: $8836.13,00 dólares
         
-    ### Cluster 03: 
+  ### Cluster 03: 
     - Número de customers: 502
     - Faturamento médio: 2620.966992
     - Recência média: 41 dias
