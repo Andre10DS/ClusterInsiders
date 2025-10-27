@@ -1,13 +1,8 @@
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/img/UMAP.png" alt="logo" title="logo" align="center" height="500" class="center"/>
 
 
-![logof](img/UMAP.png)
 
+![logov](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/Marca-Photoroom.png)
 
-![logov](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/UMAP.png)
-
-
-<img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/UMAP.png" alt="logod" title="logod" align="center" height="500" class="center"/>
 
 
 # Insiders Clustering
@@ -84,12 +79,7 @@ Nessa etapa foi avaliado a distribuição dos dados em menor dimensionaldiade. P
 No espaço dos componentes principais gerado pelo PCA a distribuição do dados não apresentou uma separabilidade, conforme figura abaixo:
 
     
-<img src="https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/imagens/PCA_D.png"
-     alt="Marca-Photoroom"
-     title="Marca-Photoroom"
-     align="center"
-     height="500"
-     class="center" />
+![PCAv](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/PCA_D.png)
 
 
 No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
@@ -101,12 +91,13 @@ No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao 
 
 No espaço gerado pelo TSNE a distrbuição teve uma maior separabilidade se comparado ao PCA, porém ainda apresenta baixa separabilidade dos dados.
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/TSNE.png" alt="TSNE" title="TSNE" align="center" height="500" class="center"/>
+
+![dfgg](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/TSNE.png)
 
 
 O espaço gerado Random Forest (Embedding) apresentou a melhor distribuição dos dados com a formação de clusters mais evidentes.
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Embededing.png" alt="Embedding" title="Embedding" align="center" height="500" class="center"/>
+![Embededingv](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/Embededing.png)
 
 
 **Step 06. Hyperparameter Fine-Tunning e teste dos modelos:**
@@ -114,7 +105,7 @@ O espaço gerado Random Forest (Embedding) apresentou a melhor distribuição do
 Nesta etapa foi realizar o teste com os modelos e ajuste dos parametros com os modelos K-Means, GMM, Hierarchical Clustering e DBSCAN. Os resultados obtidos foram:
 
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Modelos.png" alt="Reultado dos modelos" title="Resultado dos modelos" align="center" height="500" class="center"/>
+![modelvc](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/Modelos.png)
 
 
 Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direcionamento das ações de marketing. Além disso, o modelo selecionado foi o Hierarchical Clustering por apresentar a melhor perfomance para o número de clusters escolhido.
@@ -124,7 +115,7 @@ Foi tomado a decisão de escolher o número de 8 clusters para facilitar o direc
 
    - Ao definir os clusters obtivemos as seguintes descrições:
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/Forma%C3%A7%C3%A3o%20dos%20Cluster.png" alt="Clusters" title="Clusters" align="center" height="500" class="center"/>
+![clusterv](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/Formação dos Cluster.png)
 
   ### Cluster 01:  ( Candidato à Insider )
     - Número de customers: 468
