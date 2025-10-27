@@ -3,7 +3,7 @@
      title="Marca-Photoroom"
      align="center"
      height="500"
-     class="center" />git
+     class="center" />
 
 # Insiders Clustering
 
@@ -84,12 +84,13 @@ No espaço dos componentes principais gerado pelo PCA a distribuição do dados 
      title="Marca-Photoroom"
      align="center"
      height="500"
-     class="center" />git
+     class="center" />
 
 
 No espaço gerado pelo UMAP a distribuição teve uma evolução se comprado ao PCA, porém, ainda apresenta uma concentração em determinadas regiões, conforme figura abaixo:
 
-<img src="https://github.com/Andre10DS/ClusterInsiders/blob/main/imagens/UMAP.png" alt="UMAP" title="UMAP" align="center" height="500" class="center"/>
+![UMAP](img/UMAP.png)
+
 
 
 No espaço gerado pelo TSNE a distrbuição teve uma maior separabilidade se comparado ao PCA, porém ainda apresenta baixa separabilidade dos dados.
