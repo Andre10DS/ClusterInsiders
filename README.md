@@ -276,11 +276,10 @@ Respostas:
 
 **Step 11. Entrega do dashboard no Looker:**
 
-Segue o dashboard com os dados dos clusters:
+Segue o link dashboard com os dados dos clusters:
 
 
-<iframe width="600" height="443" src="https://lookerstudio.google.com/embed/reporting/361ac0b1-f8fb-4743-b4ad-abea890fb07a/page/k9PcF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
+https://lookerstudio.google.com/s/n_HWPo4wEnE
 
 
 # 4. Conclusions
