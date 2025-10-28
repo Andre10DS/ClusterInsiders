@@ -278,16 +278,18 @@ Respostas:
 
 Segue o link dashboard com os dados dos clusters:
 
-
 https://lookerstudio.google.com/s/n_HWPo4wEnE
 
 
-# 4. Conclusions
+![dashboardvc](https://raw.githubusercontent.com/Andre10DS/ClusterInsiders/main/img/dashboard.png)
+
+
+# 4. Conclusão
 
   Os algoritmos de clusterização são ferramentas extremamente úteis para entender o comportamento do cliente e na resolução de problemas de negócio que necessitem de agrupamentos se rotulos pré-definidos. Neste projeto a utilização dos algoritmos ajudaram a definir um grupo de clientes para criação do programa de fidelização e, além disso, contribuição para a criação de um grupo de referência para nortear as ações de marketing visando aumentar o desempenho da empresa transformando os demais grupos em insiders.
 
 
-# 5. Next Steps to Improve
+# 5. Próximo passos
 
   - Realizar o estudo da cesta de compras do grupo insiders para subsidear as ações de marketing para outros grupos com o objetivo de aproxima-los do padrão mais elevado.
   - Efetuar a projeção de faturamento do grupo insiders para avaliar a viabilidade das ações de marketing.
